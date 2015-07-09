@@ -1,0 +1,210 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    tools:context=".TenonActivity">
+
+    <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Leg Width"
+                android:id="@+id/lblLeg" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edtLeg"
+                android:gravity="end" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0.0"
+            android:id="@+id/txtLeg"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="end" />
+    </TableRow>
+    <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Rail Width"
+                android:id="@+id/lblRailWidth" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edtRailWidth"
+                android:gravity="end" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="0.0"
+            android:id="@+id/txtRailWidth"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="end" />
+    </TableRow>
+    <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tenon Width"
+                android:id="@+id/lblTenonWidth" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edtTenonWidth"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.0"
+                android:id="@+id/txtTenonWidth"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="end" />
+     </TableRow>
+     <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Shoulder"
+                android:id="@+id/lblFrontTenonShoulder" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edtFrontTenonShoulder"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.0"
+                android:id="@+id/txtFrontTenonShoulder"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="end" />
+        </TableRow>
+
+
+
+    <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Rail Setback"
+                android:id="@+id/lblRailSetback" />
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/edtRailSetback"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.00"
+                android:id="@+id/txtRailSetback"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="end" />
+    </TableRow>
+
+    <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mortise Shoulder"
+                android:id="@+id/lblMortiseShoulder" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.00"
+                android:id="@+id/txtMortiseShoulder"
+                android:textAlignment="textEnd"
+                android:numeric="decimal"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="end" />
+    </TableRow>
+
+    <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mortise Depth"
+                android:id="@+id/lblMortiseDepth" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.0"
+                android:id="@+id/txtMortiseDepth"
+                android:textAlignment="textEnd"
+                android:numeric="decimal"
+                android:layout_gravity="right"
+                android:gravity="end" />
+    </TableRow>
+
+    <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mortise Inside Depth"
+                android:id="@+id/lblMortiseInsideDepth" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.0"
+                android:id="@+id/txtMortiseInsideDepth"
+                android:textAlignment="textEnd"
+                android:layout_gravity="right"
+                android:gravity="end" />
+    </TableRow>
+
+</TableLayout>
+
